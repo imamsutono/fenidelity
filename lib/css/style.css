@@ -1,0 +1,10 @@
+.hover {
+	background-color: #00bfa5;
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.gallery-item {
+	width: 100%;
+}
