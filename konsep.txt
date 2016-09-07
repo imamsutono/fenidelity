@@ -1,0 +1,13 @@
+Halaman Fan Art
+> Instagram Grid
+> Instagram web app -> Site Up (1)
+> Pinterest Grid
+> Masonry Grid
+> Google+ Layout (2)
+> Facebook goes material -> Material Up (3)
+
+Halaman Artikel
+> Horizontal Card
+> Vertical Card - 4 Column - Sama Tinggi (1)
+	- Options diganti tgl upload dan jumlah comment
+> Google+ Layout
