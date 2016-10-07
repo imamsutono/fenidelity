@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fenidelity - Artikel</title>
+  <title>Fenidelity - Fan Art</title>
   <link rel="stylesheet" type="text/css" href="lib/css/style.css">
   <link rel="stylesheet" type="text/css" href="lib/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css">
@@ -20,12 +20,22 @@
   <!-- second navbar -->
   <div class="navbar-fixed">
     <!-- Dropdown menu -->
-    <ul id="dropdown" class="dropdown-content">
+    <ul id="dropdown-fanart-top" class="dropdown-content">
       <li><a href="fan-art.html">Layout 1</a></li>
       <li><a href="fan-art2.html">Layout 2</a></li>
       <li><a href="fan-art3.html">Layout 3</a></li>
     </ul>
-    <ul id="dropdown-artikel" class="dropdown-content">
+    <ul id="dropdown-artikel-top" class="dropdown-content">
+      <li><a href="list-artikel.html">Layout 1</a></li>
+      <li><a href="list-artikel2.html">Layout 2</a></li>
+      <li><a href="list-artikel3.html">Layout 3</a></li>
+    </ul>
+    <ul id="dropdown-fanart-side" class="dropdown-content">
+      <li><a href="fan-art.html">Layout 1</a></li>
+      <li><a href="fan-art2.html">Layout 2</a></li>
+      <li><a href="fan-art3.html">Layout 3</a></li>
+    </ul>
+    <ul id="dropdown-artikel-side" class="dropdown-content">
       <li><a href="list-artikel.html">Layout 1</a></li>
       <li><a href="list-artikel2.html">Layout 2</a></li>
       <li><a href="list-artikel3.html">Layout 3</a></li>
@@ -36,51 +46,51 @@
         <ul class="right hide-on-med-and-down">
           <li><a href="index.html">HOME</a></li>
           <li><a href="profile.html">PROFIL</a></li>
-          <li><a href="#">PROJECT</a></li>
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown-artikel">ARTIKEL<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown">FAN ART<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="project.html">PROJECT</a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown-artikel-top">ARTIKEL<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown-fanart-top">FAN ART<i class="material-icons right">arrow_drop_down</i></a></li>
           <li><a href="login.html">LOGIN</a></li>
         </ul>
 
-          <ul id="nav-mobile" class="side-nav">
-            <div class="section light-blue darken-1"></div>
-            <li class="light-blue darken-1">
-              <center><img src="img/fans.jpg" style="width: 50%;"></center>
-            </li>
-            <div class="divider"></div>
-            <li class="bold">
-              <a class="waves-effect waves-cyan" href="index.html">
-                <i class="material-icons">home</i>HOME
-              </a>
-            </li>
-            <li class="bold">
-              <a class="waves-effect waves-cyan" href="profile.html">
-                <i class="material-icons">account_circle</i>PROFIL
-              </a>
-            </li>
-            <li class="bold">
-              <a class="waves-effect waves-cyan" href="project.html">
-                <i class="material-icons">list</i>PROJECT
-              </a>
-            </li>
-            <li class="bold">
-              <a class="waves-effect waves-cyan dropdown-button" href="#!" data-activates="dropdown-artikel">
-                <i class="material-icons">subject</i>ARTIKEL
-              </a>
-            </li>
-            <li class="bold">
-              <a class="waves-effect waves-cyan dropdown-button" href="#!" data-activates="dropdown">
-                <i class="material-icons">image</i>FAN ART
-              </a>
-            </li>
-            <li class="bold">
-              <a class="waves-effect waves-cyan" href="login.html">
-                <i class="material-icons">input</i>LOGIN
-              </a>
-            </li>
-          </ul>
-          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
+        <ul id="nav-mobile" class="side-nav">
+          <div class="section light-blue darken-1"></div>
+          <li class="light-blue darken-1">
+            <center><img src="img/fans.jpg" style="width: 50%;"></center>
+          </li>
+          <div class="divider"></div>
+          <li class="bold">
+            <a class="waves-effect waves-cyan" href="index.html">
+              <i class="material-icons">home</i>HOME
+            </a>
+          </li>
+          <li class="bold">
+            <a class="waves-effect waves-cyan" href="profile.html">
+              <i class="material-icons">account_circle</i>PROFIL
+            </a>
+          </li>
+          <li class="bold">
+            <a class="waves-effect waves-cyan" href="project.html">
+              <i class="material-icons">list</i>PROJECT
+            </a>
+          </li>
+          <li class="bold">
+            <a class="waves-effect waves-cyan dropdown-button" href="#!" data-activates="dropdown-artikel-side">
+              <i class="material-icons">subject</i>ARTIKEL
+            </a>
+          </li>
+          <li class="bold">
+            <a class="waves-effect waves-cyan dropdown-button" href="#!" data-activates="dropdown-fanart-side">
+              <i class="material-icons">image</i>FAN ART
+            </a>
+          </li>
+          <li class="bold">
+            <a class="waves-effect waves-cyan" href="login.html">
+              <i class="material-icons">input</i>LOGIN
+            </a>
+          </li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
     </nav>
   </div>
   <!-- end navbar -->
@@ -122,16 +132,16 @@
       <div class="card">
         <div class="card-content">
           <div class="row" style="margin-bottom: 0;">
-            <div class="col l1 m1 s1">
+            <div class="col s1">
               <img src="img/7.jpg" class="circle" height="40px" width="40px">
             </div>
-            <div class="col l10 m10 s10">
+            <div class="col s10">
               <span class="title" style="padding-left: 15px; line-height: 3;"><strong>Imam Sutono</strong></span>
             </div>
-            <div class="col l1 m1 s1">
+            <div class="col s1">
               <small class="grey-text right-align" style="line-height: 3;">2h</small>
             </div>
-            <div class="col l12 m12 s12">
+            <div class="col s12">
               <span class="card-title">Feni Fitriyanti</span>
             </div>
           </div>

@@ -27,6 +27,20 @@
 	/*padding: 0 !important;*/
 	position: relative;
 }
+.article-cover {
+	height: 600px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.article-title {
+	position: absolute;
+	bottom: 1em;
+	padding-left: 8%;
+}
+.article-content {
+	font-size: 1.2em;
+}
 
 /* Instagram Grid */
 .fan-art-post {

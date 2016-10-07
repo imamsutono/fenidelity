@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fenidelity - Artikel</title>
+  <title>Fenidelity - Detail Artikel</title>
   <link rel="stylesheet" type="text/css" href="lib/css/style.css">
   <link rel="stylesheet" type="text/css" href="lib/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css">
@@ -94,109 +94,162 @@
     </nav>
   </div>
   <!-- end navbar -->
-  <!-- title artikel -->
-  <div class="container">
-    <div class="section"></div>
-
-    <div class="row">
-      <div class="col s12">
-        <center>
-          <h4 class="teal-text text-accent-4">FENI FITRIYANTI MENDAPAT POSISI 5 PADA SINGLE KE-14 JKT48</h4>
-        </center>
-        <div class="col s1"></div>
-        <div class="col s10">
-          <div class="divider"></div>
-        </div>
-        <div class="col s1"></div>
-        <div class="row"></div>
-        <!-- Info Artikel -->
-        <div class="col s10 offset-s1">
-          <table align="center">
-            <tbody>
-              <tr>
-                <td width="5%" rowspan="2" style="padding: 0 10px 0 0;"><img class="circle" src="img/7.jpg" width="30px" height="30px"></td>
-                <td style="padding: 0;"><strong>Imam Sutono</strong></td>
-              </tr>
-              <tr>
-                <td style="padding: 0;"><span class="grey-text">4 September 2016</span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <!-- End info artikel -->
-        <div class="row"></div>
-        <center><img src="img/14 - 1.jpg" style="width: 80%;"></center>
-        <div class="divider"></div>
-        <p align="justify" class="article-content">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p align="justify" class="article-content">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+  <div class="section"></div>
+  <div class="section"></div>
+  <!-- content -->
+  <div class="row">
+    <div class="container" style="display: flex;">
+    <!-- fan art image -->
+      <div class="col s8" style="margin: 0; padding: 0;">
+        <img src="img/artikel/3.jpg" style="width: 100%;">
       </div>
-    </div> <!-- end row -->
 
-    <!-- Comment -->
-    <div class="row">
-      <div class="col s9 offset-l1 offset-m1 offset-s1">
+    <!-- fan art description -->
+      <div class="col s4 white"> <br>
+        <!-- profile uploader -->
+        <div class="col s2">
+          <img src="img/7.jpg" class="circle" height="40" width="40">
+        </div>
+        <div class="col s10" style="padding-left: 15px;">
+          <span class="title" style="display: block;"><strong>Imam Sutono</strong></span>
+          <span class="grey-text">2 jam yang lalu</span>
+        </div> <!-- end profile uploader -->
+
+        <div class="col s12">
+          <div class="section"></div>
+        </div>
+
+      <!-- title fan art -->
+        <div class="col s12">
+          <span class="flow-text">Title Fan Art</span>
+        </div> <!-- end title fan art -->
+        
+      <!-- like and comment -->
+        <!-- <div class="col s2">
+          <i class="material-icons grey-text" style="cursor: pointer;">favorite_border</i>
+        </div>
+        <div class="col s2" style="padding-left: 0;">
+          <span class="grey-text center-align">16</span>
+        </div>
+        <div class="col s2"></div>
+        <div class="col s2">
+          <i class="material-icons grey-text" style="cursor: pointer;">comment</i>
+        </div>
+        <div class="col s2">
+          <span class="grey-text">2</span>
+        </div> --> <!-- end like and comment -->
+
+      <!-- form comment -->
+        <div style="bottom: 0;">
+          <div class="input-field col s10">
+            <input type="text" id="komentar" placeholder="Komentar..." class="validate">
+          </div>
+          <div class="col s2">
+            <button class="btn waves-effect waves-light blue" type="submit" style="padding: 0 10px;">
+              <i class="material-icons">send</i>
+            </button>
+          </div>
+        </div><!-- end form comment -->
+
+      </div>
+    </div>
+  </div> <!-- end row -->
+
+    <!-- comment list -->
+    <!-- <div class="row">
+      <div class="col s12 m8 l8">
         <h5 class="blue-text">Komentar disini kuy</h5>
         <div class="divider"></div>
       </div>
     </div>
     <br>
     <div class="row">
-      <div class="col l1 m1 s2 offset-l1 offset-m1 offset-s1">
+      <div class="col s2 m1 l1">
         <img class="circle" src="img/7.jpg" width="40px" height="40px">
       </div>
-      <div class="col s8">
+      <div class="col s6">
         <strong class="blue-text">Imam Sutono</strong><br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
       </div>
     </div>
     <div class="row">
-      <div class="col l9 offset-l1 offset-m1 offset-s1">
+      <div class="col s8">
         <div class="divider"></div>
       </div>
     </div>
     <div class="row">
-      <div class="col l1 m1 s2 offset-l1 offset-m1 offset-s1">
+      <div class="col s2 m1 l1">
         <img class="circle" src="img/7.jpg" width="40px" height="40px">
       </div>
-      <div class="col s8">
+      <div class="col s6">
         <strong class="blue-text">Imam Sutono</strong><br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
       </div>
-    </div> <!-- end comment -->
-    <!-- Form komentar -->
-    <div class="row">
-      <div class="white col s9 offset-l1 offset-m1 offset-s1 z-depth-1">
-        <div class="col l1 m2 s2">
-          <img class="circle" src="img/7.jpg" width="40px" height="40px" style="margin-top: 70%;">
+    </div> --> <!-- end comment list -->
+
+    <!-- form comment -->
+    <!-- <div class="row">
+      
+    </div><! end form komentar 
+  </div> -->
+  <div class="section"></div>
+
+  <!-- artikel lainnya -->
+  <div class="row white">
+    <div class="container">
+      <div class="section"></div>
+      <h4>Artikel Lainnya</h4>
+      <div class="divider"></div>
+      <div class="section"></div>
+      <!-- artikel lainnya list -->
+      <div class="row">
+        <div class="col s12 m4 l4">
+            <img src="img/artikel/1.jpg" class="img-responsive" style="width: 100%;">
         </div>
-        <div class="input-field col l10 m9 s9">
-          <textarea id="komentar" class="materialize-textarea"></textarea>
-          <label for="komentar">Komentar</label>
-        </div>
-        <div class="col s1" style="padding-top: 40px; padding-left: 0;">
-          <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">send</i></a>
+        <div class="col s12 m8 l8">
+          <h5 class="truncate grey-text text-darken-3">Judul Artikel Lainnya</h5>
+          <span class="truncate grey-text text-darken-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <br>
+          <span class="grey-text">Feni Fitriyanti &nbsp;&nbsp; | &nbsp;&nbsp; Kamis, 6 Oktober 2016</span>
         </div>
       </div>
-    </div>
-    <!-- End form komentar -->
 
-  </div> <!-- end container -->
+      <div class="row">
+        <div class="col s12 m4 l4">
+            <img src="img/artikel/2.jpg" class="img-responsive" style="width: 100%;">
+        </div>
+        <div class="col s12 m8 l8">
+          <h5 class="truncate grey-text text-darken-3">Judul Artikel Lainnya</h5>
+          <span class="truncate grey-text text-darken-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <br>
+          <span class="grey-text">Feni Fitriyanti &nbsp;&nbsp; | &nbsp;&nbsp; Kamis, 6 Oktober 2016</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m4 l4">
+            <img src="img/artikel/7.jpg" class="img-responsive" style="width: 100%;">
+        </div>
+        <div class="col s12 m8 l8">
+          <h5 class="truncate grey-text text-darken-3">Judul Artikel Lainnya</h5>
+          <span class="truncate grey-text text-darken-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <br>
+          <span class="grey-text">Feni Fitriyanti &nbsp;&nbsp; | &nbsp;&nbsp; Kamis, 6 Oktober 2016</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m4 l4">
+            <img src="img/artikel/9.jpg" class="img-responsive" style="width: 100%;">
+        </div>
+        <div class="col s12 m8 l8">
+          <h5 class="truncate grey-text text-darken-3">Judul Artikel Lainnya</h5>
+          <span class="truncate grey-text text-darken-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <br>
+          <span class="grey-text">Feni Fitriyanti &nbsp;&nbsp; | &nbsp;&nbsp; Kamis, 6 Oktober 2016</span>
+        </div>
+      </div> <!-- end artikel lainnya list -->
+
+    </div> <!-- end container -->
+  </div> <!-- end artikel lainnya -->
 
   <!-- footer -->
   <footer class="page-footer amber accent-3">
@@ -229,5 +282,10 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="lib/js/materialize.min.js"></script>
   <script type="text/javascript" src="lib/js/script.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".dropdown-button").dropdown();
+    });
+  </script>
 </body>
 </html>
